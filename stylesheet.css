@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Cousine', sans-serif;
+    font-weight: 300;
+    background-color: #222
+    
+}
+.header {
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: #ffffff;
+    
+}
+.name {
+    height: 100%;
+    margin-left: middle;
+
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+}
+.img-logo {
+    width: 75px;
+    margin-left: 2px;
+}
+main{
+    min-height: calc(100vh - 80px - 200px);
+
+}
+
+.descripton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.join-button1{
+    width:150px;
+}
+.joinbutton2{
+    margin-top: 10px;
+    float: left;
+}
+.join-button2{
+    width: 300px;
+    height: auto;
+}
+.olmate{
+    float: right;
+    margin-top: -210px;
+    margin-left: 50%;
+    margin-right: 10px;
+}
+.olmateboy{
+    width: 350px;
+    height: auto;
+    float: right;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 160px;
+}
+
+
+
+.bottom-header {
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0px 41%;
+    background-color: #111111;
+    
+}
+h3{
+    color:rgb(66, 64, 64);
+    white-space: nowrap;
+    text-align: center;
+    float:center;
+}
