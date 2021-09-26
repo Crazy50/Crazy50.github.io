@@ -1,0 +1,21 @@
+
+
+{
+    "clean_urls": true
+}
+{
+    "logging": {
+      "access": false,
+      "error": "warn"
+    }
+}
+  {
+    "routes": {
+      "/assets/*": "/assets/",
+      "/**": "main.html"
+    }
+}
+{
+    "https_only": true
+}
+  
